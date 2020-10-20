@@ -10,7 +10,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @Data
 
-public class FlightProposal implements Comparable<FlightProposal>{
+public class FlightProposal implements Comparable<FlightProposal> {
     private int id;
     private int price;
     private String from;

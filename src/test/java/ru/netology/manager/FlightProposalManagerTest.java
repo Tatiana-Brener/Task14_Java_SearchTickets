@@ -20,16 +20,16 @@ class FlightProposalManagerTest {
     @InjectMocks
     private FlightProposalManager proposalManager;
 
-    private FlightProposal firstProposal = new FlightProposal(1, 1900, "SVO", "AER", 155);
+    private FlightProposal firstProposal = new FlightProposal(1, 1900, "SVO", "AER", 150);
     private FlightProposal secondProposal = new FlightProposal(2, 2015, "DME", "AER", 145);
-    private FlightProposal thirdProposal = new FlightProposal(3, 1785, "VKO", "AER", 130);
-    private FlightProposal fourthProposal = new FlightProposal(4, 1850, "VKO", "AER", 130);
-    private FlightProposal fifthProposal = new FlightProposal(5, 1795, "DME", "AER", 145);
-    private FlightProposal sixthProposal = new FlightProposal(6, 1799, "VKO", "AER", 140);
+    private FlightProposal thirdProposal = new FlightProposal(3, 1785, "VKO", "AER", 138);
+    private FlightProposal fourthProposal = new FlightProposal(4, 1850, "VKO", "AER", 132);
+    private FlightProposal fifthProposal = new FlightProposal(5, 1795, "DME", "AER", 142);
+    private FlightProposal sixthProposal = new FlightProposal(6, 1799, "VKO", "AER", 148);
     private FlightProposal seventhProposal = new FlightProposal(7, 2000, "DME", "AER", 130);
-    private FlightProposal eighthProposal = new FlightProposal(8, 1850, "DME", "AER", 130);
-    private FlightProposal ninthProposal = new FlightProposal(9, 1850, "SVO", "AER", 130);
-    private FlightProposal tenthProposal = new FlightProposal(10, 1890, "SVO", "AER", 130);
+    private FlightProposal eighthProposal = new FlightProposal(8, 1850, "DME", "AER", 135);
+    private FlightProposal ninthProposal = new FlightProposal(9, 1850, "SVO", "AER", 125);
+    private FlightProposal tenthProposal = new FlightProposal(10, 1890, "SVO", "AER", 128);
 
     @Test
     public void shouldFindAllProposalsIfMatchedToRequest1() {
